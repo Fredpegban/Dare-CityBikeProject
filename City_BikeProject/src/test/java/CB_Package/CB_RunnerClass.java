@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Frankfurt.feature", monochrome = true, dryRun = false, strict=true)
+@CucumberOptions(features="city.feature", monochrome = true, dryRun = false, strict=true)
 
            
 		

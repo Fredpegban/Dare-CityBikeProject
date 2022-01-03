@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import cucumber.api.java.en.Given;
@@ -15,6 +16,9 @@ public class Frankfurt_StepDefinition {
 	
 	//System.setProperty("WebDriver.Chrome.Driver", "‎⁨/APPLE SSD SM0256F⁩/Users⁩/macbookpro⁩/Downloads⁩⁩");
 
+
+	//WebDriver driver = new ChromeDriver();
+	
 	WebDriver driver = new SafariDriver();
 	 String expectedTitle = "Frankfurt Germany - Google Maps";
 	 
